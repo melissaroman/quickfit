@@ -1,0 +1,159 @@
+/*html {
+  border-top: 5px solid #fff;
+  margin: 10px;
+}*/
+
+.banner .heading {
+  font-size: 50px;
+  font-family: 'Cookie', cursive;
+  text-align: left;
+  color: #CF4858;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 500px;
+  background: #F7F7F7;
+  padding: 25px 15px 25px 10px;
+}
+
+.heading {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #16A79D;
+}
+
+/*body,*/
+.user_info, .banner {
+    margin-left:auto;
+    margin-right:auto;
+    /*max-width: 500px;*/
+    max-width: 50%;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+    height: 100%;
+}
+
+/*h2 {
+  font: 20px Georgia, "Times New Roman", Times, serif;
+  color: #888;
+  text-shadow: 1px 1px 1px #FFF;
+}*/
+
+/*center p {
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  color: #888;
+  text-shadow: 1px 1px 1px #FFF;
+}*/
+
+
+.new_user {
+    font-size: 15px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #F4AC42;
+}
+
+/*h1>span {
+    display: block;
+    font-size: 11px;
+}*/
+
+.label {
+    display: block;
+    margin: 0px;
+}
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+/*removed select from below:*/
+input[type="password"], input[type="text"], input[type="email"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+/*select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}*/
+
+.button, .get_exercise {
+    background: #16A79D;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #4d505b;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.button:hover, .sign_up_button:hover, .logout_button:hover, .get_exercise:hover {
+    background: #888
+}
+
+.sign_up_button, .logout_button {
+    background: #F4AC42;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #4d505b;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.profile_footer {
+  /*margin-bottom: 5%;*/
+  padding-top: 5%;
+  text-align: center;
+  /*float: right;*/
+  /*margin-top: 90%;*/
+}
+
+.exercise_details {
+  height: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exercise_from_db {
+  margin: 2%;
+  font-size: 100%;
+  /*font-size: 20px;*/
+  text-align: center;
+}

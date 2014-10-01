@@ -1,0 +1,31 @@
+  <section class="profile-top">
+    <section>
+      <center><h2>Welcome, <%= @user.name %>!</h2>
+        <p>Do three rounds of 15-20 reps per exercise.</p></center>
+    </section>
+  </section>
+  <br>
+  <br>
+
+  <div class="time_parameter">
+    <form action="/" method="post" class="STYLE-NAME">
+      <label>
+          <input type="submit" class="get_exercise" href="#"value="Get Exercise" />
+      </label>
+    </form>
+  </div>
+  <br>
+  <br>
+
+<div class="exercise_details">
+</div>
+
+<section class="profile_footer">
+  <form action="/logout" method="get" class="STYLE-NAME">
+    <label>
+      <input type="submit" class="logout_button" value="Logout">
+    </label>
+  </form>
+</section>
+
+
