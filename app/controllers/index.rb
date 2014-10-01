@@ -14,10 +14,16 @@ get '/logout' do
 end
 
 post '/users' do
-  @user = User.find_by(email: params[:email])
-  redirect '/' unless @user
+  # @user = User.find_by(email: params[:email])
+  # redirect '/' unless @user
 
-  if @user.password == params[:password]
+  # if @user.password == params[:password]
+  #   session[:user_id] = @user.id
+  # end
+
+  # redirect '/'
+  @user = User.authenticate(params[:email], params[:password])
+  if @user
     session[:user_id] = @user.id
   end
 
