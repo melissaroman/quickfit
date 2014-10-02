@@ -13,6 +13,13 @@ gem 'activerecord', '~>4.1'
 
 gem 'rake'
 gem 'bcrypt'
+gem 'httparty'
+
+gem 'awesome_print'
+
+# gem 'health_graph'
+# gem 'run_keeper'
+# gem 'omniauth-jawbone'
 
 gem 'shotgun'
 
