@@ -1,3 +1,4 @@
+
 <h1 class="profile_heading">QuickFit</h1>
 
 <section class="side_image_strip">
@@ -9,14 +10,16 @@
 </section>
 
 <section class="profile-welcome">
-  <h2>Welcome, <%= @user.name %>!</h2>
-  <p>Do three rounds of 15-20 reps per exercise.</p>
+  <h2>Welcome, <%= @user.name %>!
+  <img id="gravatar" src="http://www.gravatar.com/avatar/<%=@hash%>"/></h2>
+  <p>Do three rounds of 15-20 reps per exercise.
+  </p>
 </section>
 <br>
 <br>
 
 <div class="ajax_call">
-  <form action="/" method="post" class="STYLE-NAME">
+  <form action="/" method="post">
     <label>
       <input type="submit" class="get_exercise" href="#" value="Get Exercise" />
     </label>
@@ -26,10 +29,14 @@
 <br>
 
 <div class="exercise_details">
+  <p class="profile_quote">If it doesn't challenge you,<br>
+  it doesn't change you.</p>
 </div>
 
-<div class="fitbit_info">
-</div>
+
+<!-- Beyond MVP...Figuring out fitbit api stuff with Oauth -->
+<!-- <div class="fitbit_info">
+</div> -->
 
 <section class="profile_footer">
   <form action="/logout" method="get" class="STYLE-NAME">
